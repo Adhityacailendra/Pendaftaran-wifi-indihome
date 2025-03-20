@@ -44,3 +44,4 @@ Formulir pendaftaran dan verifikasi pelanggan untuk layanan internet indihome di
   </div>
  </body>
 </html>
+<img src="https://images.app.goo.gl/ak9w77mvZSEepX5T6" alt="Logo Perusahaan" width="200">
