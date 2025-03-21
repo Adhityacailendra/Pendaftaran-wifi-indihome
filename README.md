@@ -1,4 +1,4 @@
-# Pendaftaran wifi indihome
+#
 <html>
  <head>
   <script src="https://cdn.tailwindcss.com">
