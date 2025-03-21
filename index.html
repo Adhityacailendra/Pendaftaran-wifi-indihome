@@ -1,44 +1,35 @@
 <html>
 <head>
+    <title>Registrasi Customer</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Batik+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
     <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-        <h1 class="text-2xl font-bold text-center mb-4">Kirim Link Registrasi Customer</h1>
-        <div class="bg-blue-800 text-white p-4 rounded-lg mb-6">
-            <p>Formulir pendaftaran &amp; verifikasi pelanggan, lengkapi persyaratan berikut:</p>
+        <h1 class="text-center text-xl font-bold mb-4">Kirim Link Registrasi Customer</h1>
+        <div class="bg-blue-800 text-white p-4 rounded-lg mb-4">
+            <p>Formulir pendaftaran & verifikasi pelanggan, lengkapi persyaratan berikut:</p>
             <ul class="list-disc list-inside">
                 <li>Foto KTP</li>
                 <li>Foto Rumah</li>
             </ul>
-            <p class="mt-2">
-                Untuk layanan internet IndiHome di wilayah Baturaja dan sekitarnya, mohon hubungi petugas
-                <span class="font-bold">082281512603</span> untuk konfirmasi pemasangan.
-            </p>
+            <p class="mt-2">Untuk layanan internet IndiHome di wilayah Baturaja dan sekitarnya, mohon hubungi petugas <span class="font-bold">082281512603</span> untuk konfirmasi pemasangan.</p>
         </div>
         <form>
             <div class="mb-4">
                 <label class="block text-gray-700 mb-2" for="nama">Nama Pelanggan</label>
-                <input class="w-full px-3 py-2 border rounded-lg" id="nama" placeholder="Nama lengkap pelanggan" type="text"/>
+                <input class="w-full px-3 py-2 border rounded-lg" type="text" id="nama" placeholder="Nama lengkap pelanggan">
             </div>
             <div class="mb-4">
                 <label class="block text-gray-700 mb-2" for="email">Email Pelanggan</label>
-                <input class="w-full px-3 py-2 border rounded-lg" id="email" placeholder="Alamat email pelanggan" type="email"/>
+                <input class="w-full px-3 py-2 border rounded-lg" type="email" id="email" placeholder="Alamat email pelanggan">
             </div>
-            <div class="mb-6">
+            <div class="mb-4">
                 <label class="block text-gray-700 mb-2" for="phone">No. Handphone</label>
-                <input class="w-full px-3 py-2 border rounded-lg" id="phone" placeholder="No. handphone pelanggan" type="tel"/>
+                <input class="w-full px-3 py-2 border rounded-lg" type="text" id="phone" placeholder="No. handphone pelanggan">
             </div>
-            <div class="flex justify-center mb-6">
-                <span class="font-bold text-2xl text-red-600" style="font-family: 'Batik Sans', sans-serif;">INDIHOME</span>
-            </div>
-            <button class="w-full bg-blue-800 text-white py-2 rounded-lg font-bold">Kirim Link Verifikasi</button>
+            <div class="text-center text-red-800 font-bold mb-4">INDIHOME</div>
+            <button class="w-full bg-blue-800 text-white py-2 rounded-lg">Kirim Link Verifikasi</button>
         </form>
-        <div class="text-center mt-4 text-xs text-gray-400">
-            Design by Adhitya Cailendra Putra SF AGENCY #INDIHOME35
-        </div>
     </div>
 </body>
 </html>
